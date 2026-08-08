@@ -1,0 +1,79 @@
+name: Bug report
+description: 报告可复现的 Radio Echo 应用问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿上传密码、P12/TQ5/TQ8、API Key、完整配置备份或其他敏感信息。涉及安全问题请发送邮件至 BI1RRE@163.com。
+  - type: input
+    id: version
+    attributes:
+      label: Radio Echo 版本
+      placeholder: 例如 0.1.0 / APK SHA-256 前 12 位
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android 设备与系统
+      placeholder: 例如 Lenovo TB324ZC / Android 15
+    validations:
+      required: true
+  - type: dropdown
+    id: feature
+    attributes:
+      label: 功能区域
+      options:
+        - 启动或设置
+        - 设备连接
+        - CW
+        - FT8 接收或解码
+        - FT8 发射或自动通联
+        - 日志或 LoTW
+        - 地图或传播
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: radio
+    attributes:
+      label: 电台与连接方式
+      placeholder: 例如 FX-4CR / Bluetooth SPP，未连接电台可填“无”
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: 按发生顺序列出操作、时间和状态变化
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 已脱敏日志或截图
+      description: 删除账号、密码、证书、API Key、公网地址和不希望公开的个人信息。
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 安全确认
+      options:
+        - label: 我已停止异常发射，并确认电台当前处于安全状态。
+          required: true
+        - label: 我确认公开内容不包含密码、证书、API Key 或完整配置备份。
+          required: true

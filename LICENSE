@@ -1,21 +1,27 @@
-MIT License
+Radio Echo Binary License
 
-Copyright (c) 2026 BI1RRE
+Copyright (c) 2026 BI1RRE. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Subject to the Radio Echo User Service Agreement and applicable law,
+permission is granted to download an official, unmodified Radio Echo APK
+from the Radio Echo GitHub repository or Releases page and use it without a
+software fee on Android devices lawfully controlled by the user.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This permission does not publish Radio Echo proprietary source code, user
+interface, graphics, name, or documentation under an open-source license.
+Except where applicable law expressly permits otherwise, no permission is
+granted to modify, inject into, repackage, impersonate, sell, rent, or
+publish a derived distribution of Radio Echo. Share the official Release
+repository link rather than redistributing an APK from an unverified source.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Third-party components remain governed by their respective licenses. This
+license does not restrict rights already granted by those licenses or
+mandatory rights under applicable law. See THIRD_PARTY_NOTICES.md and the
+licenses directory.
+
+THE SOFTWARE IS PROVIDED AS AVAILABLE, WITHOUT A PROMISE THAT IT IS ERROR
+FREE, UNINTERRUPTED, OR COMPATIBLE WITH EVERY DEVICE, RADIO, FIRMWARE,
+NETWORK, OR OPERATING ENVIRONMENT. DISCLAIMERS AND LIMITATIONS APPLY ONLY
+TO THE EXTENT PERMITTED BY APPLICABLE LAW.
+
+Contact: BI1RRE@163.com
