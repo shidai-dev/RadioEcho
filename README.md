@@ -1,77 +1,103 @@
 # Radio Echo
 
-Radio Echo 是由业余无线电爱好者 `BI1RRE` 独立开发维护的 Android 业余无线电辅助应用，提供电台连接、CW、FT8、ADIF 日志、LoTW 和传播信息等功能。
+<p align="center">
+  <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
+</p>
 
-> 当前仓库仅用于发布官方二进制 APK、使用文档和问题反馈，不提供 Radio Echo 自有源代码。免费使用不代表软件已按开源许可证发布。
+![Radio Echo portable radio console](promo/radio-echo-forum-cover.png)
 
-## 下载
+**Radio Echo** is an Android amateur-radio companion independently developed and maintained by `BI1RRE`. It brings radio connectivity, CW operation, FT8, ADIF logging, LoTW synchronization and propagation reports to phones and tablets used for portable operation.
 
-请从本仓库直接下载 [`Radio-Echo-v0.1.0-android-arm64.apk`](Radio-Echo-v0.1.0-android-arm64.apk)，或从 [Releases](../../releases) 页面下载同名附件。当前版本为公开预览版，发布 Release 时应勾选 GitHub 的 **Pre-release**，不建议从第三方网盘、群文件或重新打包站点安装。
+> This repository distributes official binary APK files, documentation and support materials. Radio Echo's proprietary source code is not published here. Free availability does not mean the application itself is released under an open-source license.
 
-发布附件：
+Radio Echo is designed as a lightweight field console, not as a replacement for mature desktop applications such as WSJT-X or JTDX.
+
+## Feature Overview
+
+- **Radio connectivity:** FX-4CR over Bluetooth SPP; Icom IC-705 over WLAN Remote and USB CI-V paths.
+- **CW console:** frequency control, band presets, WPM adjustment, editable keying messages, DX Cluster/RBN spots and manual QSO logging.
+- **FT8:** live spectrum, 15-second slots, lightweight decoding and manual or automatic QSO sequencing.
+- **Logging:** local ADIF storage, search, editing, deletion, import/export and manual QSO entry.
+- **LoTW:** history synchronization, confirmation status, certificate-based signing and reviewed upload queues.
+- **Propagation:** PSK Reporter, WSPR and Reverse Beacon Network reports with map visualization.
+- **Local-first operation:** Chinese and English UI, local settings backup and no Radio Echo cloud account.
+
+![Radio Echo interface overview](promo/radio-echo-ui-nine-grid.jpg)
+
+> The interface collage was captured from a post-v0.1.0 test build. Some UI details may differ from the current public APK; the release notes for each APK are authoritative.
+
+## Download
+
+Download [`Radio-Echo-v0.1.0-android-arm64.apk`](Radio-Echo-v0.1.0-android-arm64.apk) directly from this repository or use the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and should be marked as a **Pre-release**.
+
+Official release files:
 
 - `Radio-Echo-v0.1.0-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
-APK 信息：
+Do not install repackaged copies from unofficial download sites, group storage or third-party mirrors.
 
-| 项目 | 内容 |
+## APK Information
+
+| Item | Value |
 | --- | --- |
-| 应用名称 | Radio Echo |
-| 版本 | 0.1.0 (versionCode 1) |
-| Android 包名 | `cn.bi1rre.radioradioecho` |
-| 最低系统 | Android 7.0 / API 24 |
-| 目标系统 | Android API 35 |
-| CPU 架构 | `arm64-v8a` |
-| 授权状态 | 免费测试版，无试用倒计时，无授权码 |
-| FT8 后端 | MIT 许可的 `ft8_lib` 轻量后端 |
+| Application | Radio Echo |
+| Version | 0.1.0 (versionCode 1) |
+| Android package | `cn.bi1rre.radioradioecho` |
+| Minimum Android | Android 7.0 / API 24 |
+| Target Android | API 35 |
+| CPU architecture | `arm64-v8a` |
+| License state | Free preview, no trial countdown or activation code |
+| FT8 backend | Lightweight MIT-licensed `ft8_lib` backend |
 
-## 当前支持范围
+## Current Support Status
 
-- FX-4CR：Bluetooth SPP CAT、CW 键控及兼容音频链路。
-- Icom IC-705：Icom WLAN Remote，以及 USB CI-V 控制路径。
-- CW：快捷键控、频率控制、WPM、手动通联日志和 DX Cluster Spot。
-- FT8：接收频谱、15 秒周期、轻量解码、手动或自动通联流程。
-- 日志：本地 ADIF、导入导出、编辑删除、LoTW 历史同步和手动确认上传。
-- 传播：PSK Reporter、WSPR 和 Reverse Beacon 数据展示。
+- **FX-4CR:** Bluetooth SPP CAT, CW keying and compatible audio path.
+- **Icom IC-705:** Icom WLAN Remote and USB CI-V control paths.
+- **CW:** preset keying, frequency control, WPM, manual QSO logging and DX Cluster spots.
+- **FT8:** receive spectrum, slot timing, lightweight decoding and QSO sequencing.
+- **Logs:** local ADIF, import/export, editing, deletion, LoTW history and reviewed upload.
+- **Propagation:** PSK Reporter, WSPR and Reverse Beacon data.
 
-其他电台、固件、Android 厂商系统和音频路由尚未完成全面验证。兼容列表表示已有实现路径，不代表所有组合都已通过实地验收。
+Other radios, firmware versions, Android vendor systems and audio-routing combinations have not completed full compatibility acceptance testing. A listed implementation path does not guarantee that every hardware combination has passed field testing.
 
-## 安装与升级
+FT8 weak-signal performance, dense multi-signal conditions and continuous automatic sequencing remain active test areas and are not equivalent to WSJT-X or JTDX on a desktop computer.
 
-完整步骤见 [INSTALL.md](INSTALL.md)。升级前请在应用内导出配置和 ADIF 日志。早期包名 `cn.hyperft8.mobile` 与当前包名不同，Android 不会自动迁移旧应用私有数据。
+## Installation and Upgrade
 
-## 发射安全
+See [INSTALL.md](INSTALL.md) for complete installation instructions. Export the application configuration and full ADIF log before upgrading.
 
-本应用不授予业余无线电操作资格、台站执照、呼号或监管许可。首次发射前必须在低功率、可控环境核对频率、模式、PTT、音频、ALC、功率和驻波，并确保能够从电台实体控件立即停止发射。
+The earlier package name `cn.hyperft8.mobile` is different from the current package. Android does not automatically migrate private application data between them.
 
-使用自动 CQ、自动应答或连续发射时，实际操作人必须持续监督。发生错误频率、异常带宽、PTT 无法释放、设备断连、有害干扰或状态不确定时，应立即停止发射。
+## Transmission Safety
 
-详见 [业余无线电合规与发射安全声明](legal/RADIO_COMPLIANCE_NOTICE.zh-CN.md)。
+Radio Echo does not grant an amateur-radio license, station authorization, callsign or regulatory permission. Before the first transmission, verify frequency, mode, PTT, audio level, ALC, output power and SWR in a controlled low-power environment. Always keep a physical method available to stop transmission immediately.
 
-## 隐私与联网服务
+Automatic CQ, automatic replies and repeated transmission must remain under the supervision of the licensed operator. Stop transmitting immediately if the frequency is incorrect, bandwidth is abnormal, PTT does not release, the device disconnects, harmful interference occurs or the operating state is uncertain.
 
-Radio Echo 不设应用账户和自有云端日志库。本地日志、证书、音频和设备配置默认在设备本机处理。只有在用户主动配置或使用 LoTW、QRZ、天地图、Telnet、PSK Reporter、WSPR、RBN 或电台网络连接时，应用才会直接连接相应第三方。
+See the [Amateur Radio Compliance and Transmission Safety Notice](legal/RADIO_COMPLIANCE_NOTICE.zh-CN.md).
 
-请勿在公开 Issue 中上传 LoTW/QRZ/Icom 密码、P12 文件或密码、天地图 API Key、完整配置备份以及包含个人信息的原始日志。
+## Privacy and External Services
 
-详见 [用户服务协议](legal/USER_SERVICE_AGREEMENT.zh-CN.md) 和 [隐私政策](legal/PRIVACY_POLICY.zh-CN.md)。
+Radio Echo has no application account and no proprietary cloud log service. Logs, certificates, audio and radio settings are processed locally by default. The application connects directly to third-party services only when the user configures or invokes LoTW, QRZ, Tianditu, Telnet clusters, PSK Reporter, WSPR, RBN or a network-connected radio.
 
-## 软件许可
+Never post LoTW, QRZ or Icom passwords, P12 files or passphrases, Tianditu API keys, full configuration backups or raw logs containing personal information in a public issue.
 
-本仓库发布的是 Radio Echo 免费二进制测试版，不提供 Radio Echo 自有源代码。用户可从官方 Release 下载并在自己的 Android 设备上安装使用。第三方组件继续适用各自许可证。
+The full [User Service Agreement](legal/USER_SERVICE_AGREEMENT.zh-CN.md) and [Privacy Policy](legal/PRIVACY_POLICY.zh-CN.md) are currently provided in Chinese.
 
-详见 [二进制发行许可](LICENSE)、[二进制发行声明](BINARY_DISTRIBUTION_NOTICE.md) 和 [第三方许可声明](THIRD_PARTY_NOTICES.md)。
+## Distribution and Licensing
 
-## 反馈与支持
+This repository publishes the free Radio Echo binary preview and does not publish Radio Echo's proprietary source code. Users may download the official APK and install it on their own Android devices. Third-party components remain subject to their respective licenses.
 
-- 普通缺陷：使用仓库的 Bug report 模板提交 Issue。
-- 安全问题或敏感材料：发送邮件至 `BI1RRE@163.com`，不要公开提交。
-- 提交前请阅读 [SUPPORT.md](SUPPORT.md) 和 [SECURITY.md](SECURITY.md)。
+See the [Binary Distribution License](LICENSE), [Binary Distribution Notice](BINARY_DISTRIBUTION_NOTICE.md) and [Third-Party Notices](THIRD_PARTY_NOTICES.md).
 
-本项目由个人爱好者利用业余时间维护，不承诺服务等级、修复期限或对所有设备提供兼容支持。
+## Feedback and Support
 
-## English summary
+- Use the repository's Bug Report template for ordinary defects.
+- Send security reports or sensitive material to `BI1RRE@163.com`; do not publish them in an issue.
+- Read [SUPPORT.md](SUPPORT.md) and [SECURITY.md](SECURITY.md) before submitting a report.
 
-Radio Echo is a binary-only Android amateur-radio companion maintained by BI1RRE. This repository distributes official APK files and documentation but does not publish proprietary source code. The current preview is free to use, requires no activation code, targets arm64 Android devices, and must be operated under the user's local amateur-radio laws and station authorization.
+Radio Echo is maintained by an individual amateur-radio enthusiast in spare time. No service level, repair deadline or compatibility guarantee is provided.
+
+**73, BI1RRE**
