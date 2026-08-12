@@ -18,21 +18,21 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 - **CW 操作台：** 频率控制、波段预设、WPM 调整、可编辑拍发内容、DX Cluster/RBN Spot 和手动通联日志。
 - **FT8：** 实时频谱、15 秒时隙、轻量解码以及手动或自动通联流程。
 - **日志管理：** 本地 ADIF 保存、搜索、编辑、删除、导入导出和手动新增日志。
-- **LoTW：** 历史同步、确认状态、证书签名和人工审核上传队列。
+- **LoTW：** 历史同步、确认状态、证书签名、人工审核上传队列，以及可选的仅 FT8 自动上传策略。
 - **传播查询：** PSK Reporter、WSPR、Reverse Beacon Network 和地图展示。
 - **本地优先：** 中英文界面、本地配置备份，不要求注册 Radio Echo 云端账号。
 
 ![Radio Echo 功能界面](promo/radio-echo-ui-nine-grid.jpg)
 
-> 界面拼图来自 v0.1.0 后续测试构建；部分界面细节可能与当前公开 APK 不同，实际功能以对应 Release Notes 为准。
+> 界面拼图对应 v0.1.1 候选版界面，实际功能仍以对应 Release Notes 为准。
 
 ## 下载
 
-请从本仓库直接下载 [`Radio-Echo-v0.1.0-android-arm64.apk`](Radio-Echo-v0.1.0-android-arm64.apk)，或从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载。当前版本为公开预览版，Release 应标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.1-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.1/Radio-Echo-v0.1.1-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.0-android-arm64.apk`
+- `Radio-Echo-v0.1.1-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.0 (versionCode 1) |
+| 版本 | 0.1.1 (versionCode 2) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |
@@ -57,7 +57,7 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 - **Icom IC-705：** Icom WLAN Remote，以及 USB CI-V 控制路径。
 - **CW：** 快捷键控、频率控制、WPM、手动通联日志和 DX Cluster Spot。
 - **FT8：** 接收频谱、时隙显示、轻量解码和通联流程。
-- **日志：** 本地 ADIF、导入导出、编辑删除、LoTW 历史同步和人工审核上传。
+- **日志：** 本地 ADIF、导入导出、编辑删除、LoTW 历史同步和人工审核上传；明确启用后可仅对新完成的 FT8 通联自动上传。
 - **传播：** PSK Reporter、WSPR 和 Reverse Beacon 数据展示。
 
 其他电台、固件、Android 厂商系统和音频路由尚未完成全面兼容验收。兼容列表表示已有实现路径，不代表所有硬件组合都已通过实地测试。

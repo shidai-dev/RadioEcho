@@ -1,6 +1,6 @@
 # Radio Echo 第三方许可与非关联声明
 
-本文件适用于 `Radio-Echo-v0.1.0-android-arm64.apk`。Radio Echo 自有代码为 BI1RRE 版权所有；本文件只说明第三方组件权利，不向 Radio Echo 自有代码授予开源许可。
+本文件适用于 `Radio-Echo-v0.1.1-android-arm64.apk`。Radio Echo 自有代码为 BI1RRE 版权所有；本文件只说明第三方组件权利，不向 Radio Echo 自有代码授予开源许可。
 
 ## 发行边界
 

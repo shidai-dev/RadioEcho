@@ -36,7 +36,7 @@
 版本：0.1.0 (1)
 最低 Android：API 24
 目标 Android：API 35
-SHA-256：8f0a757ffc7a51f308bb6c663dc679e752c218fe47ca5bf4a86b78d2ff8ecf9f
+SHA-256：6ba624e5dcc6da78340f839d1821fc27d3bd63a86836ba08d3efc9399531c7cc
 签名证书 SHA-256：c2fad4dc5c79163f23fb80d97427c70f4a187be714546d890bf6ceea2bb819af
 ```
 
