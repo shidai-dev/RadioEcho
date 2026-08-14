@@ -1,2 +1,3 @@
 6ba624e5dcc6da78340f839d1821fc27d3bd63a86836ba08d3efc9399531c7cc  Radio-Echo-v0.1.0-android-arm64.apk
 f6d94ab5833b490cc90fffbc7825fec03085a66beea370b554184ab1ba987038  Radio-Echo-v0.1.1-android-arm64.apk
+84eb47c3f5e119de39e079780d81da564f8b03a0a99a428ec12e7a419c735ade  Radio-Echo-v0.1.2-android-arm64.apk

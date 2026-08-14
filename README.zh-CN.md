@@ -24,15 +24,15 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ![Radio Echo 功能界面](promo/radio-echo-ui-nine-grid.jpg)
 
-> 界面拼图对应 v0.1.1 候选版界面，实际功能仍以对应 Release Notes 为准。
+> 界面拼图对应 v0.1.2 候选版界面，实际功能仍以对应 Release Notes 为准。
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.1-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.1/Radio-Echo-v0.1.1-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.2-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.2/Radio-Echo-v0.1.2-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.1-android-arm64.apk`
+- `Radio-Echo-v0.1.2-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.1 (versionCode 2) |
+| 版本 | 0.1.2 (versionCode 3) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |

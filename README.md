@@ -24,15 +24,15 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ![Radio Echo interface overview](promo/radio-echo-ui-nine-grid.jpg)
 
-> The interface collage reflects the v0.1.1 release-candidate UI. The release notes for each APK remain authoritative.
+> The interface collage reflects the v0.1.2 release-candidate UI. The release notes for each APK remain authoritative.
 
 ## Download
 
-Download [`Radio-Echo-v0.1.1-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.1/Radio-Echo-v0.1.1-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.2-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.2/Radio-Echo-v0.1.2-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.1-android-arm64.apk`
+- `Radio-Echo-v0.1.2-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Do not install repackaged copies from unofficial download sites, group storage o
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.1 (versionCode 2) |
+| Version | 0.1.2 (versionCode 3) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
