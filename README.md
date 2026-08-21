@@ -22,17 +22,17 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 - **Propagation:** PSK Reporter, WSPR and Reverse Beacon Network reports with map visualization.
 - **Local-first operation:** Chinese and English UI, local settings backup and no Radio Echo cloud account.
 
-![Radio Echo interface overview](promo/radio-echo-ui-nine-grid.jpg)
+![Radio Echo interface overview in English](promo/radio-echo-ui-overview-en.jpg)
 
-> The interface collage reflects the v0.1.2 release-candidate UI. The release notes for each APK remain authoritative.
+> The interface collage reflects the v0.1.3 release-candidate UI. The release notes for each APK remain authoritative.
 
 ## Download
 
-Download [`Radio-Echo-v0.1.2-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.2/Radio-Echo-v0.1.2-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.3-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.3/Radio-Echo-v0.1.3-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.2-android-arm64.apk`
+- `Radio-Echo-v0.1.3-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Do not install repackaged copies from unofficial download sites, group storage o
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.2 (versionCode 3) |
+| Version | 0.1.3 (versionCode 4) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -53,12 +53,14 @@ Do not install repackaged copies from unofficial download sites, group storage o
 
 ## Current Support Status
 
-- **FX-4CR:** Bluetooth SPP CAT, CW keying and compatible audio path.
-- **Icom IC-705:** Icom WLAN Remote and USB CI-V control paths.
+- **FX-4CR:** Bluetooth SPP CAT and CW keying; USB CAT connection, frequency control and CW transmit have limited field evidence.
+- **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.
+- **Experimental USB catalog:** protocol-backed Icom, Yaesu, Kenwood, Elecraft, Xiegu, QRP Labs, GUOHETEC and Wolf SDR entries; models without field evidence are clearly marked unverified.
 - **CW:** preset keying, frequency control, WPM, manual QSO logging and DX Cluster spots.
 - **FT8:** receive spectrum, slot timing, lightweight decoding and QSO sequencing.
 - **Logs:** local ADIF, import/export, editing, deletion, LoTW history and reviewed upload; new FT8 QSOs can optionally auto-upload when explicitly enabled.
 - **Propagation:** PSK Reporter, WSPR and Reverse Beacon data.
+- **Updates:** opt-in daily GitHub Release checks and a manual check action; installation always remains user-confirmed.
 
 Other radios, firmware versions, Android vendor systems and audio-routing combinations have not completed full compatibility acceptance testing. A listed implementation path does not guarantee that every hardware combination has passed field testing.
 

@@ -9,6 +9,7 @@
 ## 主要第三方组件
 
 - `ft8_lib`, Copyright (c) 2018 Kārlis Goba, MIT License；
+- `FT8CN` 设备协议映射与兼容行为参考，Copyright (c) 2023 BG7YOZ，MIT License；
 - TrustedQSL/libtqsl, Copyright (C) 2001-2015 American Radio Relay League, Inc. and portions Copyright (C) 2003-2026 The TrustedQSL Developers, TrustedQSL License Terms and Conditions；
 - React Native、React、Expo、Expo Modules 和 `@expo/vector-icons`，适用随包 MIT 许可证；
 - `react-native-svg`、`react-native-tcp-socket` 和 `@react-native-community/netinfo`，适用随包 MIT 许可证；
@@ -17,7 +18,7 @@
 - Big CTY `cty.dat` 数据来源为 `country-files.com`，当前内置数据库修订标记为 `VER20260714`；
 - DXCC 简体/繁体参考资料来源作者 VR2UPU、BD7MJO，中国呼号区资料按随包来源说明使用。
 
-发布附件中的 `licenses/` 目录保留了上述直接运行时组件的许可文本；APK 内 `assets/licenses/` 同时保留了 `ft8_lib` 和 TrustedQSL 的完整许可文本。其他运行时依赖的版权和许可继续以其上游发行材料为准。本项目不会使用 Radio Echo 条款覆盖第三方已经授予的权利。
+发布附件中的 `licenses/` 目录保留了上述直接运行时组件的许可文本；APK 内 `assets/licenses/` 同时保留了 `ft8_lib`、`FT8CN` 和 TrustedQSL 的完整许可文本。其他运行时依赖的版权和许可继续以其上游发行材料为准。本项目不会使用 Radio Echo 条款覆盖第三方已经授予的权利。
 
 ## ft8_lib MIT License
 
