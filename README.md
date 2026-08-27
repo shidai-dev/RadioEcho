@@ -24,15 +24,15 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ![Radio Echo interface overview in English](promo/radio-echo-ui-overview-en.jpg)
 
-> The interface collage reflects the v0.1.3 release-candidate UI. The release notes for each APK remain authoritative.
+> The interface collage reflects the current Radio Echo UI. The release notes for each APK remain authoritative.
 
 ## Download
 
-Download [`Radio-Echo-v0.1.3-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.3/Radio-Echo-v0.1.3-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.4-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.4/Radio-Echo-v0.1.4-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.3-android-arm64.apk`
+- `Radio-Echo-v0.1.4-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Do not install repackaged copies from unofficial download sites, group storage o
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.3 (versionCode 4) |
+| Version | 0.1.4 (versionCode 5) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -53,8 +53,9 @@ Do not install repackaged copies from unofficial download sites, group storage o
 
 ## Current Support Status
 
-- **FX-4CR:** Bluetooth SPP CAT and CW keying; USB CAT connection, frequency control and CW transmit have limited field evidence.
+- **FX-4CR:** Bluetooth SPP CAT and CW keying. Links that do not return CAT data operate in control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.
+- **Yaesu FT-DX10:** USB Enhanced CAT plus Standard-port DTR CW keying has limited field verification and requires `PC KEYING=DTR` on the radio.
 - **Experimental USB catalog:** protocol-backed Icom, Yaesu, Kenwood, Elecraft, Xiegu, QRP Labs, GUOHETEC and Wolf SDR entries; models without field evidence are clearly marked unverified.
 - **CW:** preset keying, frequency control, WPM, manual QSO logging and DX Cluster spots.
 - **FT8:** receive spectrum, slot timing, lightweight decoding and QSO sequencing.

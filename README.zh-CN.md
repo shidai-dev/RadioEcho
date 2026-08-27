@@ -24,15 +24,15 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ![Radio Echo 功能界面](promo/radio-echo-ui-nine-grid.jpg)
 
-> 界面拼图对应 v0.1.3 候选版界面，实际功能仍以对应 Release Notes 为准。
+> 界面拼图对应当前 Radio Echo 界面，实际功能仍以对应 Release Notes 为准。
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.3-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.3/Radio-Echo-v0.1.3-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.4-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.4/Radio-Echo-v0.1.4-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.3-android-arm64.apk`
+- `Radio-Echo-v0.1.4-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.3 (versionCode 4) |
+| 版本 | 0.1.4 (versionCode 5) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |
@@ -53,8 +53,9 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 当前支持范围
 
-- **FX-4CR：** Bluetooth SPP CAT 和 CW 键控；USB CAT 连接、频率控制和 CW 发射已有有限真机证据。
+- **FX-4CR：** Bluetooth SPP CAT 和 CW 键控；无 CAT 回包的链路会进入“仅控制”模式，USB CAT 连接、频率控制和 CW 发射已有有限真机证据。
 - **Icom IC-705：** Icom WLAN Remote，以及实验性的 USB CI-V 控制路径。
+- **Yaesu FT-DX10：** USB Enhanced CAT 与 Standard 口 DTR CW 键控已有有限真机验证，电台需设置 `PC KEYING=DTR`。
 - **实验性 USB 目录：** 已接入具备协议实现的 Icom、Yaesu、Kenwood、Elecraft、Xiegu、QRP Labs、国合与 Wolf SDR 型号；没有真机证据的型号明确标记为待验证。
 - **CW：** 快捷键控、频率控制、WPM、手动通联日志和 DX Cluster Spot。
 - **FT8：** 接收频谱、时隙显示、轻量解码和通联流程。
