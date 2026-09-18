@@ -28,11 +28,11 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ## Download
 
-Download [`Radio-Echo-v0.1.4-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.4/Radio-Echo-v0.1.4-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.5-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.5/Radio-Echo-v0.1.5-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.4-android-arm64.apk`
+- `Radio-Echo-v0.1.5-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Do not install repackaged copies from unofficial download sites, group storage o
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.4 (versionCode 5) |
+| Version | 0.1.5 (versionCode 6) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -53,7 +53,7 @@ Do not install repackaged copies from unofficial download sites, group storage o
 
 ## Current Support Status
 
-- **FX-4CR:** Bluetooth SPP CAT and CW keying. Links that do not return CAT data operate in control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
+- **FX-4CR:** Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry with the repaired Bluetooth firmware. Silent legacy firmware still falls back to control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.
 - **Yaesu FT-DX10:** USB Enhanced CAT plus Standard-port DTR CW keying has limited field verification and requires `PC KEYING=DTR` on the radio.
 - **Experimental USB catalog:** protocol-backed Icom, Yaesu, Kenwood, Elecraft, Xiegu, QRP Labs, GUOHETEC and Wolf SDR entries; models without field evidence are clearly marked unverified.
