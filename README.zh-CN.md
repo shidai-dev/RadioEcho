@@ -28,11 +28,11 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.5-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.5/Radio-Echo-v0.1.5-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.6-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.6/Radio-Echo-v0.1.6-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.5-android-arm64.apk`
+- `Radio-Echo-v0.1.6-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.5 (versionCode 6) |
+| 版本 | 0.1.6 (versionCode 7) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |
@@ -56,6 +56,7 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 - **FX-4CR：** 修复版蓝牙固件已支持 Bluetooth SPP CAT、频率/模式回读、CW 键控及 PWR/SWR 表计；旧固件无 CAT 回包时仍会进入“仅控制”模式。USB CAT 连接、频率控制和 CW 发射已有有限真机证据。
 - **Icom IC-705：** Icom WLAN Remote，以及实验性的 USB CI-V 控制路径。
 - **Yaesu FT-DX10：** USB Enhanced CAT 与 Standard 口 DTR CW 键控已有有限真机验证，电台需设置 `PC KEYING=DTR`。
+- **Elecraft KX3：** KXUSB/FTDI CAT、频率/模式控制、完整 CAT CW 快捷语和基础 FT8 操作已有有限真机验证。KXUSB 不包含声卡，FT8 需要独立的 `PHONES → 音频输入` 与 `音频输出 → MIC` 模拟音频链路。
 - **实验性 USB 目录：** 已接入具备协议实现的 Icom、Yaesu、Kenwood、Elecraft、Xiegu、QRP Labs、国合与 Wolf SDR 型号；没有真机证据的型号明确标记为待验证。
 - **CW：** 快捷键控、频率控制、WPM、手动通联日志和 DX Cluster Spot。
 - **FT8：** 接收频谱、时隙显示、轻量解码和通联流程。
