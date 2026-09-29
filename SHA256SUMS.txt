@@ -5,3 +5,4 @@ d30a075d5249cb8b38dfe8fddfbfe6ea66de2fe9393daa8cab88719e512e212c  Radio-Echo-v0.
 e4a322f95eb316a1bff8f2ffe283fda1f71670cc0a0560557946a823ae24d7ff  Radio-Echo-v0.1.4-android-arm64.apk
 0e631cfdd7796ddafaebb65950ef0cf7b0e998c0b76510de0247c4e4dbe11610  Radio-Echo-v0.1.5-android-arm64.apk
 f947e1050058c23fddc536b3b909e9582eb1a5d8f7b2bb915b444df023c82102  Radio-Echo-v0.1.6-android-arm64.apk
+890da130420f1e77073b377473420723308349ba4c67adb59c560d6a5e5b98db  Radio-Echo-v0.1.7-android-arm64.apk
