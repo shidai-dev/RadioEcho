@@ -28,11 +28,11 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ## Download
 
-Download [`Radio-Echo-v0.1.7-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.7/Radio-Echo-v0.1.7-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.8-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.8/Radio-Echo-v0.1.8-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.7-android-arm64.apk`
+- `Radio-Echo-v0.1.8-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -43,7 +43,7 @@ Do not install repackaged copies from unofficial download sites, group storage o
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.7 (versionCode 8) |
+| Version | 0.1.8 (versionCode 9) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
