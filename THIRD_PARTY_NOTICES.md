@@ -1,6 +1,6 @@
 # Radio Echo 第三方许可与非关联声明
 
-本文件适用于 `Radio-Echo-v0.1.1-android-arm64.apk`。Radio Echo 自有代码为 BI1RRE 版权所有；本文件只说明第三方组件权利，不向 Radio Echo 自有代码授予开源许可。
+本文件适用于 `Radio-Echo-v0.1.9-android-arm64.apk`。Radio Echo 自有代码为 BI1RRE 版权所有；本文件只说明第三方组件权利，不向 Radio Echo 自有代码授予开源许可。
 
 ## 发行边界
 
@@ -14,6 +14,8 @@
 - React Native、React、Expo、Expo Modules 和 `@expo/vector-icons`，适用随包 MIT 许可证；
 - `react-native-svg`、`react-native-tcp-socket` 和 `@react-native-community/netinfo`，适用随包 MIT 许可证；
 - `react-native-ble-plx`，适用其随包 Apache License 2.0；
+- `d3-geo 3.1.1`、`d3-array`、`internmap`：ISC License；完整文本同时保留 `d3-geo` 中的 GeographicLib MIT 声明，见 `licenses/` 及 APK 内同名文件；
+- Natural Earth 1:110m land 海岸线数据：Public Domain，用作离线地图轮廓，来源与声明见 `licenses/Natural-Earth-NOTICE.txt`；
 - AndroidX、Kotlin、Hermes、OpenSSL 及其依赖，适用其各自许可证和免责声明；
 - Big CTY `cty.dat` 数据来源为 `country-files.com`，当前内置数据库修订标记为 `VER20260714`；
 - DXCC 简体/繁体参考资料来源作者 VR2UPU、BD7MJO，中国呼号区资料按随包来源说明使用。

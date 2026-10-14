@@ -28,11 +28,11 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.8-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.8/Radio-Echo-v0.1.8-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.9-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.9/Radio-Echo-v0.1.9-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.8-android-arm64.apk`
+- `Radio-Echo-v0.1.9-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -40,10 +40,12 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## APK 信息
 
+`0.1.9` 改善大圆通联路径、本台居中缩放、日志地图触摸拖动与离线底图；FT8 页面可直接同步 UTC，新增 2 米频点，CW 支持最多 8 个可编辑快捷频率。详见 [版本说明](RELEASE_NOTES_v0.1.9.md)。
+
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.8 (versionCode 9) |
+| 版本 | 0.1.9 (versionCode 10) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |
