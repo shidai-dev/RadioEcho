@@ -1,6 +1,15 @@
 # Radio Echo
 
 <p align="center">
+  <a href="https://github.com/shidai-dev/RadioEcho/releases"><img alt="Latest release including previews" src="https://img.shields.io/github/v/release/shidai-dev/RadioEcho?include_prereleases&amp;sort=semver&amp;style=flat&amp;logo=github&amp;label=Release&amp;color=1d5da8" /></a>
+  <a href="https://github.com/shidai-dev/RadioEcho/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/shidai-dev/RadioEcho?style=flat&amp;logo=github&amp;label=Stars&amp;color=1d5da8" /></a>
+  <a href="https://github.com/shidai-dev/RadioEcho/releases"><img alt="Total downloads of all Release assets" src="https://img.shields.io/github/downloads/shidai-dev/RadioEcho/total?style=flat&amp;label=Downloads&amp;color=2e7d32" /></a>
+  <a href="https://github.com/shidai-dev/RadioEcho/issues"><img alt="Open GitHub issues" src="https://img.shields.io/github/issues/shidai-dev/RadioEcho?style=flat&amp;label=Issues&amp;color=d99a00" /></a>
+  <a href="INSTALL.md"><img alt="Android 7.0 or newer" src="https://img.shields.io/badge/Android-7.0%2B-1d5da8?style=flat&amp;logo=android&amp;logoColor=white" /></a>
+  <a href="INSTALL.md"><img alt="ARM64 architecture" src="https://img.shields.io/badge/ABI-arm64--v8a-1d5da8?style=flat&amp;logo=arm&amp;logoColor=white" /></a>
+</p>
+
+<p align="center">
   <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
 </p>
 
@@ -37,6 +46,8 @@ Official release files:
 - `THIRD_PARTY_NOTICES.md`
 
 Do not install repackaged copies from unofficial download sites, group storage or third-party mirrors.
+
+The Downloads badge counts all GitHub Release asset downloads, not unique users. Badge values may be cached.
 
 ## APK Information
 
