@@ -33,15 +33,15 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ![Radio Echo interface overview in English](promo/radio-echo-ui-overview-en.jpg)
 
-> The interface collage reflects the current Radio Echo UI. The release notes for each APK remain authoritative.
+> The collage illustrates Radio Echo features; recent workspace layouts may differ. The release notes for each APK remain authoritative.
 
 ## Download
 
-Download [`Radio-Echo-v0.1.9-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.9/Radio-Echo-v0.1.9-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.10-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.10/Radio-Echo-v0.1.10-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.9-android-arm64.apk`
+- `Radio-Echo-v0.1.10-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -54,7 +54,7 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.9 (versionCode 10) |
+| Version | 0.1.10 (versionCode 11) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -64,10 +64,11 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 
 ## Current Support Status
 
-Version 0.1.9 improves QSO maps with great-circle paths, station-centered zoom,
-single-finger log-map pan and offline coastlines. It also brings FT8 UTC sync onto
-the FT8 workspace, corrects clock-health reporting, adds the 2m FT8 preset and
-supports up to eight editable CW frequency favorites. See [release notes](RELEASE_NOTES_v0.1.9.md).
+Version 0.1.10 reorganizes the CW and FT8 workspaces for field use, improves
+landscape tuning and adds classic FT8 decode colors. Logging, queries and settings
+are simpler, with retained drafts and clearer save failures. Native FT8 receive
+status now distinguishes arriving audio from scans without valid messages.
+See [release notes](RELEASE_NOTES_v0.1.10.md).
 
 - **FX-4CR:** Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry with the repaired Bluetooth firmware. Silent legacy firmware still falls back to control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.

@@ -9,7 +9,7 @@
 
 ## 安装
 
-1. 从本仓库 Releases 页面下载 `Radio-Echo-v0.1.9-android-arm64.apk` 和 `SHA256SUMS.txt`。
+1. 从本仓库 Releases 页面下载 `Radio-Echo-v0.1.10-android-arm64.apk` 和 `SHA256SUMS.txt`。
 2. 按下面的方法校验 SHA-256，不要安装校验值不一致的文件。
 3. 在 Android 系统设置中临时允许当前文件管理器或浏览器“安装未知应用”。
 4. 打开 APK 并完成安装，安装后可关闭该来源的安装权限。
@@ -21,19 +21,19 @@
 macOS 或 Linux：
 
 ```bash
-shasum -a 256 Radio-Echo-v0.1.9-android-arm64.apk
+shasum -a 256 Radio-Echo-v0.1.10-android-arm64.apk
 ```
 
 Windows PowerShell：
 
 ```powershell
-Get-FileHash .\Radio-Echo-v0.1.9-android-arm64.apk -Algorithm SHA256
+Get-FileHash .\Radio-Echo-v0.1.10-android-arm64.apk -Algorithm SHA256
 ```
 
-版本 0.1.9 的预期 APK SHA-256：
+版本 0.1.10 的预期 APK SHA-256：
 
 ```text
-4adf38bdaf08f61f7ccaeaa633d5ca1cce6ce361a7ae0c86ddac918a2813da63
+581b3d7d6dc8d65f2799e1f440cd775562bd0afad653392c575c4bbcbe7b654b
 ```
 
 官方 Android 签名证书 SHA-256：
