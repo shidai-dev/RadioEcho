@@ -37,11 +37,11 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ## Download
 
-Download [`Radio-Echo-v0.1.10-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.10/Radio-Echo-v0.1.10-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.11-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.11/Radio-Echo-v0.1.11-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.10-android-arm64.apk`
+- `Radio-Echo-v0.1.11-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -54,7 +54,7 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.10 (versionCode 11) |
+| Version | 0.1.11 (versionCode 12) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -64,11 +64,11 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 
 ## Current Support Status
 
-Version 0.1.10 reorganizes the CW and FT8 workspaces for field use, improves
-landscape tuning and adds classic FT8 decode colors. Logging, queries and settings
-are simpler, with retained drafts and clearer save failures. Native FT8 receive
-status now distinguishes arriving audio from scans without valid messages.
-See [release notes](RELEASE_NOTES_v0.1.10.md).
+Version 0.1.11 prioritizes FT8 directed replies during automatic CQ, improves
+transmit preparation and native audio scheduling, and places the spectrum beside
+decodes in landscape. New hardware audio routing, continuous QSOs and landscape
+device acceptance remain pending; automated tests are not on-air validation.
+See [release notes](RELEASE_NOTES_v0.1.11.md).
 
 - **FX-4CR:** Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry with the repaired Bluetooth firmware. Silent legacy firmware still falls back to control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.
