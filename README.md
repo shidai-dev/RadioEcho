@@ -37,11 +37,11 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ## Download
 
-Download [`Radio-Echo-v0.1.12-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.12/Radio-Echo-v0.1.12-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.13-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.13/Radio-Echo-v0.1.13-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.12-android-arm64.apk`
+- `Radio-Echo-v0.1.13-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -54,7 +54,7 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.12 (versionCode 13) |
+| Version | 0.1.13 (versionCode 14) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -64,13 +64,12 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 
 ## Current Support Status
 
-Version 0.1.12 streamlines the CW/FT8 workspaces with fixed save/stop controls
-and more room for landscape spectrum and decodes. Log commands/search remain
-visible while results scroll; filters, map layers and full operation details
-open on demand. Propagation filters and settings are more compact. Radio,
-audio, QSO logic and upload policy are unchanged. Native-device and live RF
-acceptance remain pending; component previews are not device verification.
-See [release notes](RELEASE_NOTES_v0.1.12.md).
+Version 0.1.13 corrects the confirmed USB TX audio-routing failure path, follows
+live radio frequency readback, and adds approximate DX10 power/SWR telemetry.
+Landscape FT8 combines navigation, QSO summary and Call/Stop into one footer.
+Native-device and live RF retesting remain pending; component previews are not
+hardware verification and meter estimates are not calibrated instruments.
+See [release notes](RELEASE_NOTES_v0.1.13.md).
 
 - **FX-4CR:** Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry with the repaired Bluetooth firmware. Silent legacy firmware still falls back to control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.

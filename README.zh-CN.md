@@ -37,11 +37,11 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.12-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.12/Radio-Echo-v0.1.12-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.13-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.13/Radio-Echo-v0.1.13-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.12-android-arm64.apk`
+- `Radio-Echo-v0.1.13-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -51,12 +51,12 @@ Downloads 为全部 GitHub Release 附件的累计下载次数，不等于独立
 
 ## APK 信息
 
-`0.1.12` 整合 CW/FT8 工作台及固定保存/停止，扩大横屏频谱与解码区域；日志新增、同步和搜索不再随记录滚走，筛选、地图图层及完整详情按需打开，并精简传播与设置布局。本批不改设备、音频、通联逻辑或上传策略；真机与射频验收仍待完成，组件预览不等于实机验证。详见 [版本说明](RELEASE_NOTES_v0.1.12.md)。
+`0.1.13` 修正已确认的 USB 发射音频路由错误链路，工作频率跟随电台回读，补齐 DX10 功率/驻波估算表计；FT8 横屏将导航、通联摘要和呼叫/停止合并为单行底栏。修复效果仍待真机复测，组件预览不等于射频验收，表计不是校准仪表。详见 [版本说明](RELEASE_NOTES_v0.1.13.md)。
 
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.12 (versionCode 13) |
+| 版本 | 0.1.13 (versionCode 14) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |
