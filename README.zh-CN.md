@@ -13,7 +13,7 @@
   <a href="README.md">English</a> | <strong>简体中文</strong>
 </p>
 
-![Radio Echo 便携电台工作台](promo/radio-echo-forum-cover.png)
+![Radio Echo v0.1.14 安卓通联工作台](promo/radio-echo-cover-zh-v0.1.14.jpg)
 
 **Radio Echo** 是由业余无线电爱好者 `BI1RRE` 独立开发维护的 Android 业余无线电辅助应用，为便携操作提供电台连接、CW、FT8、ADIF 日志、LoTW 同步和传播信息等功能。
 
@@ -31,17 +31,17 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 - **传播查询：** PSK Reporter、WSPR、Reverse Beacon Network 和地图展示。
 - **本地优先：** 中英文界面、本地配置备份，不要求注册 Radio Echo 云端账号。
 
-![Radio Echo 功能界面](promo/radio-echo-ui-nine-grid.jpg)
+![Radio Echo v0.1.14 中文真机界面九宫格](promo/radio-echo-overview-zh-v0.1.14.jpg)
 
-> 界面拼图用于功能展示，近期工作台布局可能有所不同，实际功能以对应 Release Notes 为准。
+> 图片为 2026 年 10 月 22 日采集的 v0.1.14 平板真机界面；FT8 展示 MIC 仅接收状态，不冒充实际通联。未改写用户快捷语或地图供应商地名，点击图片可查看原尺寸。
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.13-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.13/Radio-Echo-v0.1.13-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.14-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.14/Radio-Echo-v0.1.14-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.13-android-arm64.apk`
+- `Radio-Echo-v0.1.14-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -51,12 +51,14 @@ Downloads 为全部 GitHub Release 附件的累计下载次数，不等于独立
 
 ## APK 信息
 
-`0.1.13` 修正已确认的 USB 发射音频路由错误链路，工作频率跟随电台回读，补齐 DX10 功率/驻波估算表计；FT8 横屏将导航、通联摘要和呼叫/停止合并为单行底栏。修复效果仍待真机复测，组件预览不等于射频验收，表计不是校准仪表。详见 [版本说明](RELEASE_NOTES_v0.1.13.md)。
+`0.1.14` 调整通联工作台与固定导航，完善历史阅读、CW 草稿恢复、查询重试和 LoTW 队列审核，并加固 FT8 报告确认、发射准备和后台停止契约。平板界面/MIC 检查及 706 项自动化通过；连续射频通联仍待监督复测，不将自动化视为现场通联验收。详见 [版本说明](RELEASE_NOTES_v0.1.14.md)。
+
+**已知问题：** 长时间接收在部分设备上可能出现较高内存占用，目前仍在调查，尚未修复；不建议低内存设备长时间无人值守运行。
 
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.13 (versionCode 14) |
+| 版本 | 0.1.14 (versionCode 15) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |

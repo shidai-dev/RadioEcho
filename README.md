@@ -13,7 +13,7 @@
   <strong>English</strong> | <a href="README.zh-CN.md">简体中文</a>
 </p>
 
-![Radio Echo portable radio console](promo/radio-echo-forum-cover.png)
+![Radio Echo v0.1.14 on Android](promo/radio-echo-cover-en-v0.1.14.jpg)
 
 **Radio Echo** is an Android amateur-radio companion independently developed and maintained by `BI1RRE`. It brings radio connectivity, CW operation, FT8, ADIF logging, LoTW synchronization and propagation reports to phones and tablets used for portable operation.
 
@@ -31,17 +31,17 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 - **Propagation:** PSK Reporter, WSPR and Reverse Beacon Network reports with map visualization.
 - **Local-first operation:** Chinese and English UI, local settings backup and no Radio Echo cloud account.
 
-![Radio Echo interface overview in English](promo/radio-echo-ui-overview-en.jpg)
+![Nine current Radio Echo screens in English](promo/radio-echo-overview-en-v0.1.14.jpg)
 
-> The collage illustrates Radio Echo features; recent workspace layouts may differ. The release notes for each APK remain authoritative.
+> Actual v0.1.14 tablet screenshots, captured on 22 October 2026. FT8 is shown in MIC receive-only mode, not an on-air QSO. User-authored presets and map-provider place labels retain their original language. Click the image for full resolution.
 
 ## Download
 
-Download [`Radio-Echo-v0.1.13-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.13/Radio-Echo-v0.1.13-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.14-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.14/Radio-Echo-v0.1.14-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.13-android-arm64.apk`
+- `Radio-Echo-v0.1.14-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -54,7 +54,7 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.13 (versionCode 14) |
+| Version | 0.1.14 (versionCode 15) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -64,12 +64,16 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 
 ## Current Support Status
 
-Version 0.1.13 corrects the confirmed USB TX audio-routing failure path, follows
-live radio frequency readback, and adds approximate DX10 power/SWR telemetry.
-Landscape FT8 combines navigation, QSO summary and Call/Stop into one footer.
-Native-device and live RF retesting remain pending; component previews are not
-hardware verification and meter estimates are not calibrated instruments.
-See [release notes](RELEASE_NOTES_v0.1.13.md).
+Version 0.1.14 updates the operating workspaces and persistent navigation,
+history reading, CW draft recovery, query retry and selective LoTW review.
+It also hardens FT8 exchange evidence, transmit preparation and background
+stop handling. Tablet UI/MIC checks and 706 automated tests passed;
+continuous RF retesting remains pending, not certified by these checks.
+See [release notes](RELEASE_NOTES_v0.1.14.md).
+
+**Known issue:** extended receive sessions may use excessive memory on some
+devices. This is still under investigation; avoid unattended extended use,
+especially on low-memory devices.
 
 - **FX-4CR:** Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry with the repaired Bluetooth firmware. Silent legacy firmware still falls back to control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.
