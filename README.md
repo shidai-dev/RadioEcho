@@ -37,11 +37,11 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ## Download
 
-Download [`Radio-Echo-v0.1.14-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.14/Radio-Echo-v0.1.14-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.15-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.15/Radio-Echo-v0.1.15-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.14-android-arm64.apk`
+- `Radio-Echo-v0.1.15-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -54,7 +54,7 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.14 (versionCode 15) |
+| Version | 0.1.15 (versionCode 16) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -64,12 +64,12 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 
 ## Current Support Status
 
-Version 0.1.14 updates the operating workspaces and persistent navigation,
-history reading, CW draft recovery, query retry and selective LoTW review.
-It also hardens FT8 exchange evidence, transmit preparation and background
-stop handling. Tablet UI/MIC checks and 706 automated tests passed;
-continuous RF retesting remains pending, not certified by these checks.
-See [release notes](RELEASE_NOTES_v0.1.14.md).
+Version 0.1.15 gives phone log records more space with a compact landscape
+toolbar, combined portrait view/search controls and shorter-window forms.
+709 automated tests and bilingual component checks passed; native phone
+keyboard/system-bar acceptance remains pending. Radio, audio, FT8 and upload
+behavior are unchanged. The tablet images above remain labeled v0.1.14.
+See [release notes](RELEASE_NOTES_v0.1.15.md).
 
 **Known issue:** extended receive sessions may use excessive memory on some
 devices. This is still under investigation; avoid unattended extended use,

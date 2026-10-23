@@ -37,11 +37,11 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.14-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.14/Radio-Echo-v0.1.14-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.15-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.15/Radio-Echo-v0.1.15-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.14-android-arm64.apk`
+- `Radio-Echo-v0.1.15-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -51,14 +51,14 @@ Downloads 为全部 GitHub Release 附件的累计下载次数，不等于独立
 
 ## APK 信息
 
-`0.1.14` 调整通联工作台与固定导航，完善历史阅读、CW 草稿恢复、查询重试和 LoTW 队列审核，并加固 FT8 报告确认、发射准备和后台停止契约。平板界面/MIC 检查及 706 项自动化通过；连续射频通联仍待监督复测，不将自动化视为现场通联验收。详见 [版本说明](RELEASE_NOTES_v0.1.14.md)。
+`0.1.15` 改善手机日志正文空间：横屏合并工具栏，竖屏整合视图与搜索，弹窗适应短窗口。709 项自动化及中英文组件检查通过；手机原生输入法/系统栏验收仍待完成，不代表全应用手机适配或射频验收通过。电台、音频、FT8 和上传策略不变；上方平板配图仍准确标记为 v0.1.14。详见 [版本说明](RELEASE_NOTES_v0.1.15.md)。
 
 **已知问题：** 长时间接收在部分设备上可能出现较高内存占用，目前仍在调查，尚未修复；不建议低内存设备长时间无人值守运行。
 
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.14 (versionCode 15) |
+| 版本 | 0.1.15 (versionCode 16) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |
