@@ -37,11 +37,11 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ## Download
 
-Download [`Radio-Echo-v0.1.15-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.15/Radio-Echo-v0.1.15-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.16-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.16/Radio-Echo-v0.1.16-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.15-android-arm64.apk`
+- `Radio-Echo-v0.1.16-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -54,7 +54,7 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.15 (versionCode 16) |
+| Version | 0.1.16 (versionCode 17) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -64,18 +64,20 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 
 ## Current Support Status
 
-Version 0.1.15 gives phone log records more space with a compact landscape
-toolbar, combined portrait view/search controls and shorter-window forms.
-709 automated tests and bilingual component checks passed; native phone
-keyboard/system-bar acceptance remains pending. Radio, audio, FT8 and upload
-behavior are unchanged. The tablet images above remain labeled v0.1.14.
-See [release notes](RELEASE_NOTES_v0.1.15.md).
+Version 0.1.16 reduces retained animation history during receive, adds compact
+FT8 decode rows and stable searchable CW Spot browsing, and distinguishes
+estimated CW progress from radio-confirmed completion. Automatic CQ stops if
+completion is unconfirmed; a stop without confirmation blocks further keying.
+The tablet images above remain truthfully labeled v0.1.14.
+See [release notes](RELEASE_NOTES_v0.1.16.md).
 
-**Known issue:** extended receive sessions may use excessive memory on some
-devices. This is still under investigation; avoid unattended extended use,
-especially on low-memory devices.
+**Validation limits:** a 12-minute ordinary-release MIC run did not reproduce the
+previous rapid memory growth, but small growth remains. Longer soaks, low-memory
+phones and physical CW stop/buffer clearing still require acceptance. Keep
+operator supervision and a physical stop; do not treat this as an OOM-free or
+fully hardware-qualified release.
 
-- **FX-4CR:** Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry with the repaired Bluetooth firmware. Silent legacy firmware still falls back to control-only mode; USB CAT connection, frequency control and CW transmit have limited field evidence.
+- **FX-4CR:** Selected third-party firmware has limited field verification for Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry. USB CAT connection, frequency control and CW transmit also have limited field evidence; these results do not cover every firmware version. **Official R1.8.5 (2026-05-24) does not support Radio Echo's CAT text CW presets.** This is a radio firmware limitation that the app cannot supply; connection and frequency control remain available. Installing third-party firmware is not required or recommended as a workaround. Other official versions require manufacturer confirmation or testing. Silent legacy firmware still falls back to control-only mode.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.
 - **Yaesu FT-DX10:** USB Enhanced CAT plus Standard-port DTR CW keying has limited field verification and requires `PC KEYING=DTR` on the radio.
 - **Elecraft KX3:** KXUSB/FTDI CAT, frequency/mode control, complete CAT CW text and basic FT8 operation have limited field verification. KXUSB has no audio interface; FT8 requires separate analog PHONES-to-input and output-to-MIC audio paths.

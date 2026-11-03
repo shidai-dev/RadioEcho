@@ -37,11 +37,11 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.15-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.15/Radio-Echo-v0.1.15-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.16-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.16/Radio-Echo-v0.1.16-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.15-android-arm64.apk`
+- `Radio-Echo-v0.1.16-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -51,14 +51,14 @@ Downloads 为全部 GitHub Release 附件的累计下载次数，不等于独立
 
 ## APK 信息
 
-`0.1.15` 改善手机日志正文空间：横屏合并工具栏，竖屏整合视图与搜索，弹窗适应短窗口。709 项自动化及中英文组件检查通过；手机原生输入法/系统栏验收仍待完成，不代表全应用手机适配或射频验收通过。电台、音频、FT8 和上传策略不变；上方平板配图仍准确标记为 v0.1.14。详见 [版本说明](RELEASE_NOTES_v0.1.15.md)。
+`0.1.16` 改善接收时动画历史对象累积，新增紧凑 FT8 解码行和稳定、可搜索的 CW Spot 浏览；CW 区分估算进度与电台确认，未确认完成时停止自动 CQ，停止未确认时阻止追加拍发。上方平板配图仍准确标记为 v0.1.14。详见 [版本说明](RELEASE_NOTES_v0.1.16.md)。
 
-**已知问题：** 长时间接收在部分设备上可能出现较高内存占用，目前仍在调查，尚未修复；不建议低内存设备长时间无人值守运行。
+**验证边界：** 普通版 MIC 连续接收 12 分钟未复现此前的快速内存增长，但仍有小幅增加，长时、低内存手机与 CW 物理停止/缓冲区清空待验收。不宣称所有 OOM 风险或硬件兼容问题已解决，请保持操作者监督与实体停止手段。
 
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.15 (versionCode 16) |
+| 版本 | 0.1.16 (versionCode 17) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |
@@ -68,7 +68,7 @@ Downloads 为全部 GitHub Release 附件的累计下载次数，不等于独立
 
 ## 当前支持范围
 
-- **FX-4CR：** 修复版蓝牙固件已支持 Bluetooth SPP CAT、频率/模式回读、CW 键控及 PWR/SWR 表计；旧固件无 CAT 回包时仍会进入“仅控制”模式。USB CAT 连接、频率控制和 CW 发射已有有限真机证据。
+- **FX-4CR：** 相关第三方固件已有 Bluetooth SPP CAT、频率/模式回读、CW 键控及 PWR/SWR 表计的有限真机验证；USB CAT 连接、频率控制和 CW 发射也有有限真机证据。这些结果不适用于所有固件。**官方 R1.8.5（2026-05-24）不支持 Radio Echo 的 CAT 文本 CW 快捷语拍发**，属于电台固件能力限制，App 无法补齐；连接和调频仍可使用。不要求用户刷第三方固件，其他官方版本以厂商说明及实测为准。旧固件无 CAT 回包时仍会进入“仅控制”模式。
 - **Icom IC-705：** Icom WLAN Remote，以及实验性的 USB CI-V 控制路径。
 - **Yaesu FT-DX10：** USB Enhanced CAT 与 Standard 口 DTR CW 键控已有有限真机验证，电台需设置 `PC KEYING=DTR`。
 - **Elecraft KX3：** KXUSB/FTDI CAT、频率/模式控制、完整 CAT CW 快捷语和基础 FT8 操作已有有限真机验证。KXUSB 不包含声卡，FT8 需要独立的 `PHONES → 音频输入` 与 `音频输出 → MIC` 模拟音频链路。
