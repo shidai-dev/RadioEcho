@@ -37,11 +37,11 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.16-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.16/Radio-Echo-v0.1.16-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.17-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.17/Radio-Echo-v0.1.17-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.16-android-arm64.apk`
+- `Radio-Echo-v0.1.17-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -51,14 +51,14 @@ Downloads 为全部 GitHub Release 附件的累计下载次数，不等于独立
 
 ## APK 信息
 
-`0.1.16` 改善接收时动画历史对象累积，新增紧凑 FT8 解码行和稳定、可搜索的 CW Spot 浏览；CW 区分估算进度与电台确认，未确认完成时停止自动 CQ，停止未确认时阻止追加拍发。上方平板配图仍准确标记为 v0.1.14。详见 [版本说明](RELEASE_NOTES_v0.1.16.md)。
+`0.1.17` 优化手机横竖屏、CW 快捷拍发与日志录入、QRZ/Spot 入口、日志搜索和设置页面，并改善平板字体及弹窗显示。上方平板配图仍标记为 v0.1.14。详见 [版本说明](RELEASE_NOTES_v0.1.17.md)。
 
 **验证边界：** 普通版 MIC 连续接收 12 分钟未复现此前的快速内存增长，但仍有小幅增加，长时、低内存手机与 CW 物理停止/缓冲区清空待验收。不宣称所有 OOM 风险或硬件兼容问题已解决，请保持操作者监督与实体停止手段。
 
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.16 (versionCode 17) |
+| 版本 | 0.1.17 (versionCode 18) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |

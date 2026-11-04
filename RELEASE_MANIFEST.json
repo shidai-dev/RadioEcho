@@ -1,17 +1,17 @@
 {
   "applicationName": "Radio Echo",
   "releaseChannel": "public-preview",
-  "versionName": "0.1.16",
-  "versionCode": 17,
-  "releaseDate": "2026-11-03",
+  "versionName": "0.1.17",
+  "versionCode": 18,
+  "releaseDate": "2026-11-04",
   "packageId": "cn.bi1rre.radioradioecho",
   "minimumAndroidApi": 24,
   "targetAndroidApi": 35,
   "abis": ["arm64-v8a"],
   "apk": {
-    "fileName": "Radio-Echo-v0.1.16-android-arm64.apk",
-    "sha256": "4fac75042aa9cf273f07e61d560daaac2f6922ec17c6097d1b476767da81ce3c",
-    "sizeBytes": 34615599,
+    "fileName": "Radio-Echo-v0.1.17-android-arm64.apk",
+    "sha256": "19b8704da77320ec19c8f51ba486d792685b9f89e09b2c560fecbfa11e8ce72f",
+    "sizeBytes": 34664747,
     "signingCertificateSha256": "c2fad4dc5c79163f23fb80d97427c70f4a187be714546d890bf6ceea2bb819af"
   },
   "activationRequired": false,
