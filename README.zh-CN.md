@@ -27,6 +27,8 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 - **CW 操作台：** 频率控制、波段预设、WPM 调整、可编辑拍发内容、DX Cluster/RBN Spot 和手动通联日志。
 - **FT8：** 实时频谱、15 秒时隙、轻量解码以及手动或自动通联流程。
 - **日志管理：** 本地 ADIF 保存、搜索、编辑、删除、导入导出和手动新增日志。
+- **呼号历史：** CW / 语音中输入呼号，自动显示历史通联次数，查看本地与已缓存 LoTW 中的通联波段、模式和 UTC 时间。
+- **语音预览：** 目前仅支持 IC-705 WLAN Remote，提供 USB/LSB/FM/AM 与本机麦克风 PTT，仍待受控真机验收。
 - **LoTW：** 历史同步、确认状态、证书签名、人工审核上传队列，以及可选的仅 FT8 自动上传策略。
 - **传播查询：** PSK Reporter、WSPR、Reverse Beacon Network 和地图展示。
 - **本地优先：** 中英文界面、本地配置备份，不要求注册 Radio Echo 云端账号。
@@ -37,11 +39,11 @@ Radio Echo 的定位是轻量化便携电台工作台，并不是为了取代 WS
 
 ## 下载
 
-请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.18-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.18/Radio-Echo-v0.1.18-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
+请从官方 [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) 页面下载 [`Radio-Echo-v0.1.19-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.19/Radio-Echo-v0.1.19-android-arm64.apk)。当前版本为公开预览版，并标记为 **Pre-release**。
 
 官方发布文件：
 
-- `Radio-Echo-v0.1.18-android-arm64.apk`
+- `Radio-Echo-v0.1.19-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -51,14 +53,14 @@ Downloads 为全部 GitHub Release 附件的累计下载次数，不等于独立
 
 ## APK 信息
 
-`0.1.18` 修正 DXCC 国旗、国家别名归并及筛选，完善本机麦克风录音源的能力检查。部分设备 MIC 间歇解码异常仍在排查。上方平板配图仍标记为 v0.1.14。详见 [版本说明](RELEASE_NOTES_v0.1.18.md)。
+`0.1.19` 新增呼号通联次数与历史自动查询，改善大量日志加载，并修复日志搜索闪退。上方平板配图仍标记为 v0.1.14。详见 [版本说明](RELEASE_NOTES_v0.1.19.md)。
 
-**验证边界：** 普通版 MIC 连续接收 12 分钟未复现此前的快速内存增长，但仍有小幅增加，长时、低内存手机与 CW 物理停止/缓冲区清空待验收。不宣称所有 OOM 风险或硬件兼容问题已解决，请保持操作者监督与实体停止手段。
+**测试版边界：** Java 迁移仍在进行，并非所有迁移后的电台路径都已重新验收；CW 实时输入连续性/停止、语音、LoTW 签名上传与恢复，以及完整手机/中英文横竖屏矩阵仍待验证。大量 LoTW 自动同步仍可能占用较高内存，不宣称所有 OOM 或硬件兼容问题已解决。请保持操作者监督与实体停止手段。
 
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | Radio Echo |
-| 版本 | 0.1.18 (versionCode 19) |
+| 版本 | 0.1.19 (versionCode 20) |
 | Android 包名 | `cn.bi1rre.radioradioecho` |
 | 最低系统 | Android 7.0 / API 24 |
 | 目标系统 | Android API 35 |

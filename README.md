@@ -27,6 +27,8 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 - **CW console:** frequency control, band presets, WPM adjustment, editable keying messages, DX Cluster/RBN spots and manual QSO logging.
 - **FT8:** live spectrum, 15-second slots, lightweight decoding and manual or automatic QSO sequencing.
 - **Logging:** local ADIF storage, search, editing, deletion, import/export and manual QSO entry.
+- **Callsign history:** enter a callsign in CW / Voice to automatically see previous QSO counts and review bands, modes and UTC times from local logs and cached LoTW history.
+- **Voice preview:** IC-705 WLAN Remote only, with USB/LSB/FM/AM and local-microphone PTT; supervised radio acceptance is still pending.
 - **LoTW:** history synchronization, confirmation status, certificate-based signing, reviewed upload queues and an opt-in FT8-only auto-upload policy.
 - **Propagation:** PSK Reporter, WSPR and Reverse Beacon Network reports with map visualization.
 - **Local-first operation:** Chinese and English UI, local settings backup and no Radio Echo cloud account.
@@ -37,11 +39,11 @@ Radio Echo is designed as a lightweight field console, not as a replacement for 
 
 ## Download
 
-Download [`Radio-Echo-v0.1.18-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.18/Radio-Echo-v0.1.18-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
+Download [`Radio-Echo-v0.1.19-android-arm64.apk`](https://github.com/shidai-dev/RadioEcho/releases/download/v0.1.19/Radio-Echo-v0.1.19-android-arm64.apk) from the official [GitHub Releases](https://github.com/shidai-dev/RadioEcho/releases) page. The current build is a public preview and is marked as a **Pre-release**.
 
 Official release files:
 
-- `Radio-Echo-v0.1.18-android-arm64.apk`
+- `Radio-Echo-v0.1.19-android-arm64.apk`
 - `SHA256SUMS.txt`
 - `THIRD_PARTY_NOTICES.md`
 
@@ -54,7 +56,7 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 | Item | Value |
 | --- | --- |
 | Application | Radio Echo |
-| Version | 0.1.18 (versionCode 19) |
+| Version | 0.1.19 (versionCode 20) |
 | Android package | `cn.bi1rre.radioradioecho` |
 | Minimum Android | Android 7.0 / API 24 |
 | Target Android | API 35 |
@@ -64,16 +66,15 @@ The Downloads badge counts all GitHub Release asset downloads, not unique users.
 
 ## Current Support Status
 
-Version 0.1.18 corrects DXCC country flags, country-name aliases and filtering,
-and checks microphone recording-source capabilities. Intermittent MIC decoding
-issues on some devices remain under investigation. The images above remain
-labeled v0.1.14. See [release notes](RELEASE_NOTES_v0.1.18.md).
+Version 0.1.19 adds automatic callsign QSO counts/history, improves loading of
+large logs and fixes a log-search crash. The images above remain labeled
+v0.1.14. See [release notes](RELEASE_NOTES_v0.1.19.md).
 
-**Validation limits:** a 12-minute ordinary-release MIC run did not reproduce the
-previous rapid memory growth, but small growth remains. Longer soaks, low-memory
-phones and physical CW stop/buffer clearing still require acceptance. Keep
-operator supervision and a physical stop; do not treat this as an OOM-free or
-fully hardware-qualified release.
+**Preview limits:** Java migration is ongoing and not every migrated radio path
+has been requalified. Live CW continuity/stop, voice, LoTW signing/upload recovery
+and the complete phone/bilingual/orientation matrix still need acceptance. Large
+automatic LoTW sync can use substantial memory. Keep operator supervision and a
+physical stop; this is not an OOM-free or fully hardware-qualified release.
 
 - **FX-4CR:** Selected third-party firmware has limited field verification for Bluetooth SPP CAT, frequency/mode readback, CW keying and PWR/SWR telemetry. USB CAT connection, frequency control and CW transmit also have limited field evidence; these results do not cover every firmware version. **Official R1.8.5 (2026-05-24) does not support Radio Echo's CAT text CW presets.** This is a radio firmware limitation that the app cannot supply; connection and frequency control remain available. Installing third-party firmware is not required or recommended as a workaround. Other official versions require manufacturer confirmation or testing. Silent legacy firmware still falls back to control-only mode.
 - **Icom IC-705:** Icom WLAN Remote and an experimental USB CI-V control path.

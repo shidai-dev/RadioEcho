@@ -1,0 +1,6 @@
+Native settings menu, preference and log action icon paths are adapted from Material Design Icons by
+Pictogrammers and contributors, as bundled by @expo/vector-icons.
+Source: https://github.com/Templarian/MaterialDesign
+Upstream license: https://github.com/Templarian/MaterialDesign/blob/master/LICENSE
+Fonts and icons: Apache License 2.0. See Apache-2.0.txt in this directory.
+Modification: font glyph outlines converted into Android VectorDrawable paths.

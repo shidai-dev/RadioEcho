@@ -1,6 +1,6 @@
 # Radio Echo 第三方许可与非关联声明
 
-本文件适用于 `Radio-Echo-v0.1.16-android-arm64.apk`。Radio Echo 自有代码为 BI1RRE 版权所有；本文件只说明第三方组件权利，不向 Radio Echo 自有代码授予开源许可。
+本文件适用于 `Radio-Echo-v0.1.19-android-arm64.apk`。Radio Echo 自有代码为 BI1RRE 版权所有；本文件只说明第三方组件权利，不向 Radio Echo 自有代码授予开源许可。
 
 ## 发行边界
 
@@ -11,7 +11,8 @@
 - `ft8_lib`, Copyright (c) 2018 Kārlis Goba, MIT License；
 - `FT8CN` 设备协议映射与兼容行为参考，Copyright (c) 2023 BG7YOZ，MIT License；
 - TrustedQSL/libtqsl, Copyright (C) 2001-2015 American Radio Relay League, Inc. and portions Copyright (C) 2003-2026 The TrustedQSL Developers, TrustedQSL License Terms and Conditions；
-- React Native、React、Expo、Expo Modules 和 `@expo/vector-icons`，适用随包 MIT 许可证；
+- React Native、React、Expo、Expo Modules 和 `@expo/vector-icons` 的代码，适用随包 MIT 许可证；图标及字体分别适用其自身许可；
+- Material Design Icons 图标、字体及原生 XML 适配路径：Apache License 2.0，见 [`licenses/Material-Design-Icons-NOTICE.txt`](licenses/Material-Design-Icons-NOTICE.txt) 与 [`licenses/Apache-2.0.txt`](licenses/Apache-2.0.txt)；
 - `react-native-svg`、`react-native-tcp-socket` 和 `@react-native-community/netinfo`，适用随包 MIT 许可证；
 - `react-native-ble-plx`，适用其随包 Apache License 2.0；
 - `d3-geo 3.1.1`、`d3-array`、`internmap`：ISC License；完整文本同时保留 `d3-geo` 中的 GeographicLib MIT 声明，见 `licenses/` 及 APK 内同名文件；
